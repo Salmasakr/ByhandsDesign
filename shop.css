@@ -1,0 +1,417 @@
+body{
+    margin: 0;
+    height: 200vh;
+    
+    
+    /* font-family: 'Cairo', sans-serif; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Happy Monkey', cursive; */
+    /* font-family: 'IBM Plex Sans Arabic', sans-serif; */
+    font-family: 'Itim', cursive;
+    /* font-family: 'Orbitron', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Tangerine', cursive; */
+    /* background-image: url("./images/category/pexels-photo-3693235.jpg"); */
+
+    /* display: block;  */
+   /* width: ; */
+   background: rgba(238, 225, 185, 0.349); /*url("./images/category/istockphoto-1185686504-612x612.jpg") ;*/
+background-repeat: no-repeat;
+background-attachment: fixed;  
+  background-size: cover;
+background-size: 100% 100%;
+background-blend-mode: darken;
+}
+
+:root{
+    --pink:rgb(190 129 173);
+}
+*{
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    background: rgb(245, 245, 245);
+    padding:.7rem 4% ;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0,.2);
+    /* border-radius: 6px;
+    width: 90vw;
+    margin-left: 50px; */
+}
+header .logo{
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    margin-left: 10px;
+    color: #292929;
+    font-weight: bolder;
+}
+header .navbar a{
+     font-size: 1.3rem;
+     padding: 0 1.5rem;
+     color: #666;
+     margin-left: 60px;
+
+}
+header .navbar a:hover{
+     color:var(--pink) ;
+}
+
+header .icons a{
+    font-size: 1.2rem;
+    color: #666;
+    margin-left: 1.5rem;
+    margin-left: 30px;
+
+}
+header .icons a:hover{
+    color:var(--pink) ;
+}
+.login{
+    margin-left: 77px;
+    margin-top: -23px;
+}
+
+.crochet{
+    margin-top: 80px;
+    margin-left: 40px;
+    height:40vh;
+    width: 28vw;
+    border-radius: 5px;
+}
+.c-section{
+    margin-top: 7px;
+    margin-left: 135px;
+    font-size: 20px;
+    /* color: white; */
+
+}
+.knitwear{
+    display: flex;
+    margin-top: -294px;
+    margin-left:430px;
+    
+    height:40vh;
+    width: 28vw;
+    border-radius: 5px;
+}
+.k-section{
+    margin-top: 10px;
+    margin-left: 530px;
+    font-size: 20px;
+}
+.handembroidery{
+    display: flex;
+    margin-top: -294px;
+    margin-left:820px;
+    
+    height:40vh;
+    width: 28vw;
+    border-radius: 5px;
+}
+.h-section{
+    margin-top: 10px;
+    margin-left: 882px;
+    font-size: 20px;
+}
+.jewelry-makers
+{
+
+    display: flex;
+    margin-top: 10px;
+    margin-left:40px;
+    
+    height:40vh;
+    width: 28vw;
+    border-radius: 5px;
+}
+.j-section{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 115px;
+   
+    font-size: 20px;
+}
+
+.macrame{
+    display: flex;
+    margin-top: -294px;
+    margin-left:420px;
+    
+    height:40vh;
+    width: 28vw;
+    border-radius: 5px;
+}
+.m-section
+{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 520px;
+   
+    font-size: 20px;
+}
+
+.oil-painting {
+    display: flex;
+    margin-top: -294px;
+    margin-left:820px;
+    
+    height:40vh;
+    width: 28vw;
+    border-radius: 5px;
+}
+.p-section{
+   
+    display: flex;
+    margin-top: 10px;
+    margin-left: 920px;
+   
+    font-size: 20px;
+
+    
+}
+.glass-painting{
+    display: block;
+    margin-top: 38px;
+    margin-left:40px;
+    
+    height:40vh;
+    width: 28vw;
+    border-radius: 5px;
+}
+.g-section{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 115px;
+   
+    font-size: 20px;
+}
+.wedding-handkerchief{
+    display: flex;
+    margin-top: -294px;
+    margin-left:420px;
+    
+    height:40vh;
+    width: 28vw;
+    border-radius: 5px;
+}
+.w-section{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 455px;
+   
+    font-size: 20px;
+}
+.scrapbook {
+    display: flex;
+    margin-top: -294px;
+    margin-left:820px;
+    
+    height:40vh;
+    width: 28vw;
+    border-radius: 5px;
+}
+.s-section{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 900px;
+   
+    font-size: 20px; 
+}
+.beads-bags{
+    display: block;
+    margin-top: 38px;
+    margin-left:40px;
+    
+    height:40vh;
+    width: 28vw;
+    border-radius: 5px;
+}
+.b-section{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 115px;
+   
+    font-size: 20px;
+}
+.flower-maker{
+    display: flex;
+    margin-top: -294px;
+    margin-left:420px;
+    
+    height:40vh;
+    width: 28vw;
+    border-radius: 5px;
+}
+.f-section{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 490px;
+   
+    font-size: 20px;
+}
+.wedding-decoration{
+    display: flex;
+    margin-top: -294px;
+    margin-left:820px;
+    
+    height:40vh;
+    width: 28vw;
+    border-radius: 5px;
+}
+.wd-section{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 870px;
+   
+    font-size: 20px; 
+}
+
+.footer{
+    background-color: rgb(192 191 187) ;
+    margin-top: 100px;
+    height: 45vh;
+}
+.footer-hands{
+    font-family: 'Dancing Script', cursive;
+      padding-top: 80px;
+      margin-left: 50px;
+      font-size: 2.5rem;
+}
+.box{
+    display:flex ;
+}
+.shop{
+    display:flex ;
+
+    margin-left: 15rem;
+    margin-top: -6rem;
+    font-size: 1.4rem;
+}
+.crochect-f{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: -6.6rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.knitwear-f{
+    margin-left: -4.5rem;
+    margin-top: -4.8rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.hand-f{
+    margin-left: -5.1rem;
+    margin-top: -3rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.jewelry-f{
+    margin-left: -9.5rem;
+    margin-top: -1.3rem;
+    color: #333;
+    font-size: 1.28rem; 
+}
+.macrame-f{
+    margin-left: 31.5rem;
+    margin-top: -7rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.painting-f{
+    display: flex;
+    margin-left: -5rem;
+    margin-top: -5rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+ .glass-f {
+    margin-left: -4.5rem;
+    margin-top: -3.3rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+
+.beads-f{
+    margin-left: -7.8rem;
+    margin-top: -1.4rem;
+    color: #333;
+    font-size: 1.28rem;
+} 
+
+.scrapbook-f{
+    margin-left: 40.7rem;
+    margin-top: -7rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+ .flower-f{
+    margin-left: -5.6rem;
+    margin-top: -5.1rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+ .weddingdec-f{
+    margin-left: -7.4rem;
+    margin-top: -3.4rem;
+    color: #333;
+    font-size: 1.28rem;
+} 
+.weddinghand-f{
+    margin-left: -11rem;
+    margin-top: -1.4rem;
+    color: #333;
+    font-size: 1.28rem; 
+} 
+.contact-f{
+    margin-left: 55rem;
+    margin-top: -8.7rem;
+    font-size: 1.4rem; 
+}
+.gmail-f{
+    margin-left: -8rem;
+    margin-top: -6.4rem;
+    color: #333;
+    font-size: 1.28rem; 
+}
+.address-f{
+    margin-left: -9.4rem;
+    margin-top: -4.4rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.image-f{
+    margin-left: -6.4rem;
+    margin-top: -1.4rem;
+    height: 5vh;
+}
+.image1-f{
+    margin-left: 1rem;
+    margin-top: -1.4rem;
+    height: 5vh;
+}
+.image2-f{
+    margin-left: 1rem;
+    margin-top: -1.4rem;
+    height: 5vh;
+}
+.credit{
+    margin-left: 30rem;
+    margin-top: 2.4rem;
+}

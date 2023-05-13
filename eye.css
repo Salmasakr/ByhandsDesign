@@ -1,0 +1,698 @@
+body{
+    margin: 0;
+    height: 100vh;
+    
+       /* font-family: 'Cairo', sans-serif; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Happy Monkey', cursive; */
+    /* font-family: 'IBM Plex Sans Arabic', sans-serif; */
+    font-family: 'Itim', cursive;
+    /* font-family: 'Orbitron', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Tangerine', cursive; */
+    /* background-image: url("./images/category/pexels-photo-3693235.jpg"); */
+
+    /* display: block;  */
+   /* width: ; */
+   background: rgba(255, 248, 226, 0.349); /*url("./images/category/istockphoto-1185686504-612x612.jpg") ;*/
+background-repeat: no-repeat;
+background-attachment: fixed;  
+  background-size: cover;
+background-size: 100% 100%;
+background-blend-mode: darken;
+}
+  
+:root{
+    --pink:rgb(190 129 173);
+}
+*{
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    background: rgb(245, 245, 245);
+    padding:.7rem 4% ;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0,.2);
+    /* border-radius: 6px;
+    width: 90vw;
+    margin-left: 50px; */
+}
+header .logo{
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    margin-left: 10px;
+    color: #292929;
+    font-weight: bolder;
+}
+header .navbar a{
+     font-size: 1.3rem;
+     padding: 0 1.5rem;
+     color: #666;
+     margin-left: 60px;
+
+}
+header .navbar a:hover{
+     color:var(--pink) ;
+}
+
+header .icons a{
+    font-size: 1.2rem;
+    color: #666;
+    margin-left: 1.5rem;
+    margin-left: 30px;
+
+}
+header .icons a:hover{
+    color:var(--pink) ;
+}
+.login{
+    margin-left: 77px;
+    margin-top: -23px;
+}
+.icons span{
+
+    user-select: none;
+    position: absolute;
+    background: rgb(248, 99, 99);
+    width: 1.3rem;
+    height: 1.3rem;
+    font-size: .9rem;
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: .2rem;
+   
+}
+.icons span:not(.animated-counter)
+{
+    display: none;
+}
+.icons span .animated-counter{
+    animation: count  .4s ease-in-out  ;
+}
+@keyframes count {
+   from{
+      top: .2rem;
+      right: -1.8rem;
+      transition: rotate(120deg);
+   }
+
+   25%{
+    top: .2rem;
+    right: -1.8rem;
+    transition: rotate(120deg);
+ }
+
+ 50%{
+    top: -.4rem;
+    right: -.6rem;
+    transition: rotate(60deg);
+ } 
+
+ 75%{
+    top: -.4rem;
+    right: 0rem;
+    transition: rotate(30deg);
+ }
+ 75%{
+    top: .2rem;
+    right: .3rem;
+    transition: rotate(0deg);
+ }
+
+
+}
+
+
+
+.blank-product{
+    margin-top: 100px;
+    margin-left: 30px;
+    /* height: 60vh; */
+    width: 35vw;
+    border-radius: 20px;
+}
+.b-tittle{
+    margin-left: 559px;
+    margin-top: -370px;
+}
+.b-price{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.n-type{
+    margin-left: 560px;
+    background-color: #f0f0f0;
+    width: 50px;
+    height: 20px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-size: 17px;
+}
+
+.b-cart{
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color:rgb(182, 138, 169) ;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 30px;
+    font-family: 'Itim', cursive;
+    cursor: pointer;
+
+
+}
+.b-cart:hover{
+    background:  rgb(240, 149, 214);
+ }
+.p-details{
+    margin-left: 555px;
+    margin-top: 20px;
+}
+.prag-product{
+    margin-left: 526px;
+    margin-top: -5px;
+    font-family: 'Itim', cursive;
+}
+.art{
+    display: flex;
+    margin-left: 556px;
+    margin-top: -15px;
+}
+.small-img-row{
+    margin-top: 50px;
+    margin-left: 20px;
+    /* height: 60vh; */
+    /* width: 35vw; */
+    /* border-radius: 20px; */
+    
+}
+.small-img-col{
+    
+    cursor: pointer;
+   
+    
+}
+.small-img{
+    /* display: flex; */
+    width: 20vw;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+ .small-img-col-1{
+    width: 5vw;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.small-img-col-2{
+   
+    border-radius: 5px;
+    margin-top: -115px;
+    margin-left: 120px;
+}
+.small-img-col-3{
+    
+    border-radius: 5px;
+    margin-top: -115px;
+    margin-left: 195px;
+} 
+
+.small-img-col-4{
+    
+    border-radius: 5px;
+    margin-top: -115px;
+    margin-left: 270px;
+} 
+
+.small-img-col-5{
+    
+    border-radius: 5px;
+    margin-top: -115px;
+    margin-left: 345px;
+} 
+
+.title-h{
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+.title-p{
+    margin-left: 1050px;
+    margin-top: -44px;
+}
+.products-imgs{
+    display: flex;
+}
+.img-1{
+    
+        display: flex;
+        margin-top: 50px;
+        margin-left: 70px;
+        width: 15vw;
+        height: 30vh;
+        border-radius: 5px;
+    
+}
+
+.star-1{
+    margin-top: 237px;
+    margin-left: -153px;
+  color: rgb(245, 159, 30);
+  
+  /* color: rgb(240, 243, 66); */
+}
+.h2-blanket{
+    display: flex;
+    
+    margin-top: 256px;
+    margin-left: -106px;
+    font-size: 20px;
+}
+.h3-blanket-price{
+    margin-top: 280px;
+    margin-left: -90px;
+}
+.img-2{
+    display: flex;
+    margin-top: -271px;
+    margin-left: 350px;
+    height: 30vh;
+    border-radius: 5px;
+}
+.star-2{
+    margin-top: -83px;
+    margin-left: -153px;
+  color: rgb(245, 159, 30);
+}
+.h3-bag{
+    display: flex;
+    
+    margin-top: -64px;
+    margin-left: -116px;
+    font-size: 20px;
+
+}
+.h2-bag-price{
+    margin-top: -42px;
+    margin-left: -104px;
+}
+
+.img-3{
+    display: flex;
+    margin-top: -271px;
+    margin-left: 620px;
+    width: 14vw;
+    height: 30vh;
+    border-radius: 5px;
+}
+.star-3{
+    margin-top: -83px;
+    margin-left: -143px;
+  color: rgb(245, 159, 30);
+}
+.h3-hat{
+    display: flex;
+    
+    margin-top: -64px;
+    margin-left: -109px;
+    font-size: 20px;
+}
+.h2-hat-price{
+    margin-top: -42px;
+    margin-left: -84px;
+}
+.img-4{
+    display: flex;
+    margin-top: -271px;
+    margin-left: 890px;
+    width: 14vw;
+    height: 30vh;
+    border-radius: 5px;
+}
+.star-4{
+    margin-top: -83px;
+    margin-left: -143px;
+  color: rgb(245, 159, 30);
+}
+.h3-backpack{
+    display: flex;
+    
+    margin-top: -64px;
+    margin-left: -112px;
+    font-size: 20px;
+}
+.h2-backpack-price{
+    margin-top: -42px;
+    margin-left: -97px;
+}
+.img-5{
+    display: flex;
+        margin-top: 50px;
+        margin-left: 70px;
+        height: 30vh;
+        border-radius: 5px;
+}
+.star-5{
+    margin-top: 237px;
+    margin-left: -150px;
+  color: rgb(245, 159, 30);
+}
+.h3-Sweater{
+    display: flex;
+    
+    margin-top: 255px;
+    margin-left: -120px;
+    font-size: 20px;
+}
+.h2-Sweater-price{
+    margin-top: 279px;
+    margin-left: -107px;
+}
+.img-6{
+    display: flex;
+    margin-top: -271px;
+    margin-left: 350px;
+    width: 14vw;
+    height: 30vh;
+    border-radius: 5px;
+}
+.star-6{
+    margin-top: -85px;
+    margin-left: -147px;
+  color: rgb(245, 159, 30);
+}
+.h3-puppy{
+    display: flex;
+    
+    margin-top: -66px;
+    margin-left: -115px;
+    font-size: 20px;
+}
+.h2-puppy-price{
+    margin-top: -40px;
+    margin-left: -102px;
+}
+.img-7{
+    display: flex;
+    margin-top: -273px;
+    margin-left: 620px;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 5px; 
+}
+.star-7{
+    margin-top: -85px;
+    margin-left: -143px;
+  color: rgb(245, 159, 30);
+}
+.h3-cardigan{
+    display: flex;
+    
+    margin-top: -67px;
+    margin-left: -116px;
+    font-size: 20px;
+}
+.h2-cardigan-price{
+    margin-top: -42px;
+    margin-left: -90px;
+}
+.img-8{
+    display: flex;
+    margin-top: -273px;
+    margin-left: 890px;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 5px; 
+}
+.star-8{
+    margin-top: -85px;
+    margin-left: -140px;
+  color: rgb(245, 159, 30);  
+}
+.h3-pillow{
+    display: flex;
+    
+    margin-top: -66px;
+    margin-left: -136px;
+    font-size: 20px;  
+}
+.h2-pillow-price{
+    margin-top: -42px;
+    margin-left: -121px;
+}
+.img-9{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px;width: 15vw;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 5px;
+}
+.star-9{
+    margin-top: 237px;
+    margin-left: -145px;
+  color: rgb(245, 159, 30);
+}
+.h3-gloves{
+    display: flex;
+    
+    margin-top: 255px;
+    margin-left: -107px;
+    font-size: 20px;
+}
+.h2-gloves-price{
+    margin-top: 279px;
+    margin-left: -90px
+}
+.img-10{
+    display: flex;
+    margin-top: -271px;
+    margin-left: 330px;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 5px;
+}
+.star-10{
+    margin-top: -85px;
+    margin-left: -167px;
+  color: rgb(245, 159, 30);
+}
+.h3-Steering{
+    display: flex;
+    
+    margin-top: -66px;
+    margin-left: -115px;
+    font-size: 20px;
+}
+.h2-Steering-price{
+    margin-top: -40px;
+    margin-left: -99px;
+}
+.img-11{
+    display: flex;
+    margin-top: -273px;
+    margin-left: 620px;
+    width: 16vw;
+    height: 30vh;
+    border-radius: 5px; 
+}
+.star-11{
+    margin-top: -85px;
+    margin-left: -153px;
+  color: rgb(245, 159, 30);
+}
+.h3-coffee{
+    display: flex;
+    
+    margin-top: -67px;
+    margin-left: -116px;
+    font-size: 20px;
+}
+.h2-coffee-price{
+    margin-top: -42px;
+    margin-left: -100px;
+}
+.img-12{
+    display: flex;
+    margin-top: -273px;
+    margin-left: 890px;
+    height: 30vh;
+    border-radius: 5px; 
+}
+.star-12{
+    margin-top: -85px;
+    margin-left: -140px;
+  color: rgb(245, 159, 30); 
+}
+.h3-Bookmark{
+    display: flex;
+    
+    margin-top: -66px;
+    margin-left: -113px;
+    font-size: 20px; 
+}
+.h2-Bookmark-price{
+    margin-top: -42px;
+    margin-left: -95px;
+}
+
+
+
+.footer{
+    background-color: rgb(192 191 187) ;
+   
+    height: 45vh; 
+    margin-top: 220px;
+    
+
+}
+.footer-hands{
+    font-family: 'Dancing Script', cursive;
+      padding-top: 80px;
+      margin-left: 50px;
+      font-size: 2.5rem;
+}
+.box{
+    display:flex ;
+}
+.shop{
+    display:flex ;
+
+    margin-left: 15rem;
+    margin-top: -6rem;
+    font-size: 1.4rem;
+}
+.crochect-f{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: -6.6rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.knitwear-f{
+    margin-left: -4.5rem;
+    margin-top: -4.8rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.hand-f{
+    margin-left: -5.1rem;
+    margin-top: -3rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.jewelry-f{
+    margin-left: -9.5rem;
+    margin-top: -1.3rem;
+    color: #333;
+    font-size: 1.28rem; 
+}
+.macrame-f{
+    margin-left: 31.5rem;
+    margin-top: -7rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.painting-f{
+    display: flex;
+    margin-left: -5rem;
+    margin-top: -5rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+ .glass-f {
+    margin-left: -4.5rem;
+    margin-top: -3.3rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+
+.beads-f{
+    margin-left: -7.8rem;
+    margin-top: -1.4rem;
+    color: #333;
+    font-size: 1.28rem;
+} 
+
+.scrapbook-f{
+    margin-left: 40.7rem;
+    margin-top: -7rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+ .flower-f{
+    margin-left: -5.6rem;
+    margin-top: -5.1rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+ .weddingdec-f{
+    margin-left: -7.4rem;
+    margin-top: -3.4rem;
+    color: #333;
+    font-size: 1.28rem;
+} 
+.weddinghand-f{
+    margin-left: -11rem;
+    margin-top: -1.4rem;
+    color: #333;
+    font-size: 1.28rem; 
+} 
+.contact-f{
+    margin-left: 55rem;
+    margin-top: -8.7rem;
+    font-size: 1.4rem; 
+}
+.gmail-f{
+    margin-left: -8rem;
+    margin-top: -6.4rem;
+    color: #333;
+    font-size: 1.28rem; 
+}
+.address-f{
+    margin-left: -9.4rem;
+    margin-top: -4.4rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.image-f{
+    margin-left: -6.4rem;
+    margin-top: -1.4rem;
+    height: 5vh;
+}
+.image1-f{
+    margin-left: 1rem;
+    margin-top: -1.4rem;
+    height: 5vh;
+}
+.image2-f{
+    margin-left: 1rem;
+    margin-top: -1.4rem;
+    height: 5vh;
+}
+.credit{
+    margin-left: 30rem;
+    margin-top: 2.4rem;
+}

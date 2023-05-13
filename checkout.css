@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+    
+    /* font-family: 'Cairo', sans-serif; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Happy Monkey', cursive; */
+    /* font-family: 'IBM Plex Sans Arabic', sans-serif; */
+    font-family: 'Itim', cursive;
+    /* font-family: 'Orbitron', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Tangerine', cursive; */
+    background:  rgba(236, 229, 184, 0.356) url("./images/category/istockphoto-826159564-612x612.jpg");
+
+    display: block;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;  
+     background-blend-mode: darken;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+/* html{margin:0;}
+.navbar{
+     width: 60vw; 
+    margin-top: -100;
+    height: 10vh;
+    background-color: rgb(192 191 187);
+    display: block;
+} */
+:root{
+    --pink:rgb(190 129 173);
+}
+*{
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    background: rgb(245, 245, 245);
+    padding:.7rem 4% ;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0,.2);
+    /* border-radius: 6px;
+    width: 90vw;
+    margin-left: 50px; */
+}
+header .logo{
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    margin-left: 10px;
+    color: #292929;
+    font-weight: bolder;
+}
+header .navbar a{
+     font-size: 1.3rem;
+     padding: 0 1.5rem;
+     color: #666;
+     margin-left: 60px;
+
+}
+header .navbar a:hover{
+     color:var(--pink) ;
+}
+
+header .icons a{
+    font-size: 1.2rem;
+    color: #666;
+    margin-left: 1.5rem;
+    margin-left: 30px;
+
+}
+header .icons a:hover{
+    color:var(--pink) ;
+}
+.login{
+    margin-left: 77px;
+    margin-top: -23px;
+}
+
+.checkout{
+    margin-top: 80px;
+}
+.img-form{
+    width: 20vw;
+    filter: drop-shadow(0 0 1px #000);
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+ 
+}
+/* .row{
+    background-color: white;
+    width: 50vw;
+    padding: 20px;
+    margin-left: 200px;
+} */
+.container form{
+    padding: 20px;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.973);
+    box-shadow: 0 5px 10px rgb(0,0,0,0.1);
+    margin-left: 0px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    
+}
+.container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container form .row .col{
+    flex:1 1 250px;
+}
+.container form .row .col .title{
+    
+  font-size: 23px;
+  text-transform: capitalize;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+}
+.container form .row .col .inputbox{
+    margin: 15px 0;
+}
+.container form .row .col .inputbox span{
+    margin-bottom: 10px;
+    display: block;
+}
+.container form .row .col .inputbox input{
+   width: 85%;
+   border: 1px solid rgb(0, 0, 0) ;
+   padding: 8px 13px;
+   font-size: 15px;
+   text-transform: none;
+   border-radius: 10px;
+}
+.container form .row .col .flex{
+    display: flex;
+    gap: 15px ;
+    
+}
+.container form .row .col .flex.inputbox{
+    margin-top: 5px;
+}
+.container form .submit-btn{
+    display: flex;
+    font-family: 'Itim', cursive;
+    color: #000;
+    font-size: 19px;
+    font-weight: bold;
+    background: rgba(146, 101, 133, 0.664);
+    border-radius: 7px;
+    padding: 5px 10px;
+    margin-top: 30px;
+    margin-left: 227px;
+    cursor: pointer;
+}
+.container form .submit-btn:hover{
+    background:rgb(240, 149, 214);
+
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: rgb(192 191 187) ;
+   
+    height: 45vh; 
+    margin-top: 100px;
+    
+
+}
+.footer-hands{
+    font-family: 'Dancing Script', cursive;
+      padding-top: 80px;
+      margin-left: 50px;
+      font-size: 2.5rem;
+}
+.box{
+    display:flex ;
+}
+.shop{
+    display:flex ;
+
+    margin-left: 15rem;
+    margin-top: -6rem;
+    font-size: 1.4rem;
+}
+.crochect-f{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: -6.6rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.knitwear-f{
+    margin-left: -4.5rem;
+    margin-top: -4.8rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.hand-f{
+    margin-left: -5.1rem;
+    margin-top: -3rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.jewelry-f{
+    margin-left: -9.5rem;
+    margin-top: -1.3rem;
+    color: #333;
+    font-size: 1.28rem; 
+}
+.macrame-f{
+    margin-left: 31.5rem;
+    margin-top: -7rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.painting-f{
+    display: flex;
+    margin-left: -5rem;
+    margin-top: -5rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+ .glass-f {
+    margin-left: -4.5rem;
+    margin-top: -3.3rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+
+.beads-f{
+    margin-left: -7.8rem;
+    margin-top: -1.4rem;
+    color: #333;
+    font-size: 1.28rem;
+} 
+
+.scrapbook-f{
+    margin-left: 40.7rem;
+    margin-top: -7rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+ .flower-f{
+    margin-left: -5.6rem;
+    margin-top: -5.1rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+ .weddingdec-f{
+    margin-left: -7.4rem;
+    margin-top: -3.4rem;
+    color: #333;
+    font-size: 1.28rem;
+} 
+.weddinghand-f{
+    margin-left: -11rem;
+    margin-top: -1.4rem;
+    color: #333;
+    font-size: 1.28rem; 
+} 
+.contact-f{
+    margin-left: 55rem;
+    margin-top: -8.7rem;
+    font-size: 1.4rem; 
+}
+.gmail-f{
+    margin-left: -8rem;
+    margin-top: -6.4rem;
+    color: #333;
+    font-size: 1.28rem; 
+}
+.address-f{
+    margin-left: -9.4rem;
+    margin-top: -4.4rem;
+    color: #333;
+    font-size: 1.28rem;
+}
+.image-f{
+    margin-left: -6.4rem;
+    margin-top: -1.4rem;
+    height: 5vh;
+}
+.image1-f{
+    margin-left: 1rem;
+    margin-top: -1.4rem;
+    height: 5vh;
+}
+.image2-f{
+    margin-left: 1rem;
+    margin-top: -1.4rem;
+    height: 5vh;
+}
+.credit{
+    margin-left: 30rem;
+    margin-top: 2.4rem;
+}
