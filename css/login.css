@@ -5,7 +5,7 @@ body{
     height: 100vh;
     display: flex;
     font-family: 'Itim', cursive;
-    background: rgba(255, 247, 200, 0.288) url("./images/istockphoto-930462118-612x612.jpg");
+    background: rgba(255, 247, 200, 0.288) url("../images/istockphoto-930462118-612x612.jpg");
     display: block;
     background-size: cover;
     background-repeat:no-repeat ;

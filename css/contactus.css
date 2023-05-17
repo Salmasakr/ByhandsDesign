@@ -12,18 +12,20 @@ body{
     /* font-family: 'Orbitron', sans-serif; */
     /* font-family: 'Oswald', sans-serif; */
     /* font-family: 'Tangerine', cursive; */
-    background:  rgba(236, 229, 184, 0.356) url("./images/category/istockphoto-826159564-612x612.jpg");
-
-    display: block;
-    background-size: cover;
-    background-repeat:no-repeat ;
-    background-attachment: fixed;  
-     background-blend-mode: darken;
     box-sizing: border-box;
     outline: none;
     border: none;
     text-transform: capitalize;
     transition: all .2s linear;
+
+    background:  rgba(236, 229, 184, 0.356) url("../images/category/istockphoto-826159564-612x612.jpg");
+    
+    /* width: 100vw; */
+    display: block;
+    background-size: cover;
+    background-repeat:no-repeat ;
+background-attachment: fixed;  
+background-blend-mode: darken;
 }
 /* html{margin:0;}
 .navbar{
@@ -96,116 +98,96 @@ header .icons a:hover{
     margin-left: 77px;
     margin-top: -23px;
 }
-
-.checkout{
-    margin-top: 80px;
+.contact{
+width: 50%;
 }
-.img-form{
-    width: 20vw;
-    filter: drop-shadow(0 0 1px #000);
-   
+form{
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.973);
+    margin-top: 150px;
+    margin-left: 400px;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
-    min-height: 100vh;
- 
+h1{
+    margin: 0;
+    text-align: center;
 }
-/* .row{
-    background-color: white;
-    width: 50vw;
-    padding: 20px;
-    margin-left: 200px;
-} */
-.container form{
-    padding: 20px;
-    width: 700px;
-    background-color: rgba(255, 255, 255, 0.973);
-    box-shadow: 0 5px 10px rgb(0,0,0,0.1);
-    margin-left: 0px;
-    padding-bottom: 40px;
-    border-radius: 5px;
+label{
+    display: block; 
+    margin: 10px 0;
+}
+input,textarea{
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
     
 }
-.container form .row{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.container form .row .col{
-    flex:1 1 250px;
-}
-.container form .row .col .title{
-    
-  font-size: 23px;
-  text-transform: capitalize;
-  padding: 5px;
-  color: rgb(0, 0, 0);
-}
-.container form .row .col .inputbox{
-    margin: 15px 0;
-}
-.container form .row .col .inputbox span{
-    margin-bottom: 10px;
-    display: block;
-}
-.container form .row .col .inputbox input{
-   width: 85%;
+input[type="text"], textarea{
    border: 1px solid rgb(0, 0, 0) ;
-   padding: 8px 13px;
-   font-size: 15px;
-   text-transform: none;
    border-radius: 10px;
-}
-.container form .row .col .flex{
-    display: flex;
-    gap: 15px ;
     
 }
-.container form .row .col .flex.inputbox{
-    margin-top: 5px;
+input[type="email"], textarea{
+    border: 1px solid rgb(0, 0, 0) ;
+    border-radius: 10px;
+     
+ }
+textarea::-webkit-scrollbar{
+    width: 4px;
 }
-.container form .submit-btn{
-    display: flex;
+textarea::-webkit-scrollbar-thumb{
+    background:rgb(146,101,133); 
+}
+.center{
+    text-align: center;
+}
+
+input[type="submit"] {
     font-family: 'Itim', cursive;
-    color: #000;
-    font-size: 19px;
-    font-weight: bold;
-    background: rgba(146, 101, 133, 0.664);
-    border-radius: 7px;
-    padding: 5px 10px;
-    margin-top: 30px;
-    margin-left: 227px;
-    cursor: pointer;
+
+margin-top: 30px;
+width: 80%;
+max-width: 170px;
+background: rgba(146, 101, 133, 0.664); 
+color: #000;
+font-size: 20px;
+font-weight: bold;
+cursor: pointer;
+border-radius: 7px;
 }
-.container form .submit-btn:hover{
+.submit:hover{
     background:rgb(240, 149, 214);
 
 }
-
-
-
-
-
-
-
+.error{
+    color: rgb(146 ,101 ,133);
+}
+/* .error-border{
+    border-bottom: 1px solid rgb(146 ,101 ,133);
+} */
+#succsess{
+    color:rgb(146 ,101 ,133);
+}
 
 
 .footer{
     background-color: rgb(192 191 187) ;
    
     height: 45vh; 
-    margin-top: 100px;
+    margin-top: 140px;
+    padding: 50px;
     
 
 }
 .footer-hands{
     font-family: 'Dancing Script', cursive;
-      padding-top: 80px;
-      margin-left: 50px;
+      padding-top: 60px;
+      margin-left: -1000px;
       font-size: 2.5rem;
 }
 .box{
