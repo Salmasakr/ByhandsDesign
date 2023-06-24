@@ -85,6 +85,61 @@ header .icons a:hover{
     margin-left: 77px;
     margin-top: -23px;
 }
+.icons span{
+
+    user-select: none;
+    position: absolute;
+    background: rgb(248, 99, 99);
+    width: 1.3rem;
+    height: 1.3rem;
+    font-size: .9rem;
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: .2rem;
+   
+}
+.icons span:not(.animated-counter)
+{
+    /* display: none; */
+}
+.icons span .animated-counter{
+    animation: count  .4s ease-in-out  ;
+}
+@keyframes count {
+   from{
+      top: .2rem;
+      right: -1.8rem;
+      transition: rotate(120deg);
+   }
+
+   25%{
+    top: .2rem;
+    right: -1.8rem;
+    transition: rotate(120deg);
+ }
+
+ 50%{
+    top: -.4rem;
+    right: -.6rem;
+    transition: rotate(60deg);
+ } 
+
+ 75%{
+    top: -.4rem;
+    right: 0rem;
+    transition: rotate(30deg);
+ }
+ 75%{
+    top: .2rem;
+    right: .3rem;
+    transition: rotate(0deg);
+ }
+
+
+}
 
 .eye-painting{
     margin-top: 100px;

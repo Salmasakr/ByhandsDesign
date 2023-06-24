@@ -151,98 +151,16 @@ header .icons a:hover{
 
 
 }
-
-.checkout{
-    margin-top: 80px;
-}
-.img-form{
-    width: 20vw;
-    filter: drop-shadow(0 0 1px #000);
-   
-}
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
-    min-height: 100vh;
- 
-}
-/* .row{
+.complete{
     background-color: white;
-    width: 50vw;
-    padding: 20px;
-    margin-left: 200px;
-} */
-.container form{
-    padding: 20px;
-    width: 700px;
-    background-color: rgba(255, 255, 255, 0.973);
-    box-shadow: 0 5px 10px rgb(0,0,0,0.1);
-    margin-left: 0px;
-    padding-bottom: 40px;
+    width: 40vw;
+    height: 46vh;
+    padding: 50px;
     border-radius: 5px;
-    
-}
-.container form .row{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.container form .row .col{
-    flex:1 1 250px;
-}
-.container form .row .col .title{
-    
-  font-size: 23px;
-  text-transform: capitalize;
-  padding: 5px;
-  color: rgb(0, 0, 0);
-}
-.container form .row .col .inputbox{
-    margin: 15px 0;
-}
-.container form .row .col .inputbox span{
-    margin-bottom: 10px;
-    display: block;
-}
-.container form .row .col .inputbox input{
-   width: 85%;
-   border: 1px solid rgb(0, 0, 0) ;
-   padding: 8px 13px;
-   font-size: 15px;
-   text-transform: none;
-   border-radius: 10px;
-}
-.container form .row .col .flex{
-    display: flex;
-    gap: 15px ;
-    
-}
-.container form .row .col .flex.inputbox{
-    margin-top: 5px;
-}
-.container form .submit-btn{
-    display: flex;
-    font-family: 'Itim', cursive;
-    color: #000;
-    font-size: 19px;
-    font-weight: bold;
-    background: rgba(146, 101, 133, 0.664);
-    border-radius: 7px;
-    padding: 5px 10px;
-    margin-top: 30px;
-    margin-left: 227px;
-    cursor: pointer;
-}
-.container form .submit-btn:hover{
-    background:rgb(240, 149, 214);
+    margin:150px auto;
+    font-size: 17px;
 
 }
-
-
-
 
 
 
